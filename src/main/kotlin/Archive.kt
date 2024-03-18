@@ -1,0 +1,1 @@
+data class Archive(val notes: MutableList<Pair<String, Note>>)

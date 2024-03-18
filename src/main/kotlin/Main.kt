@@ -1,3 +1,12 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val archivesList = mutableListOf<Pair<String, Archive>>()
+    MainMenu.show(archivesList)
+
 }
+
+
+
+
+
+
